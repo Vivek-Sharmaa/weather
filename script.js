@@ -58,6 +58,6 @@ const error404 = document.querySelector('.not_found');
  }
       searchBtn.addEventListener('click',(e)=>{
        checkWeather(inputBox.value);
-       e.preventDefault();
+      //  e.preventDefault();
  });
  
